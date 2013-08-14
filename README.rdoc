@@ -5,6 +5,15 @@ Chef Glacier-CMD
 This cookbook was created for automatted backup to Glacier using this utils : https://github.com/uskudnik/amazon-glacier-cmd-interface
 
 
+= ATTRIBUTES:
+
+
+* :access_key - AWS access key to your glacier
+* :secret_key - AWS secret key to your glacier
+* :sdb_access_key - SDB access key
+* :sdb_secret_key  - SDB secret key
+* :domainname - domain ( vault ) name
+
 If you have any questions or proposes , - please send me e-mail to nonflet@gmail.com
 
 Regards, Dmitry Lavrinenenko
