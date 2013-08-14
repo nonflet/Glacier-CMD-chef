@@ -1,0 +1,11 @@
+= DESCRIPTION:
+
+Chef Glacier-CMD
+
+This cookbook was created for automatted backup to Glacier using this utils : https://github.com/uskudnik/amazon-glacier-cmd-interface
+
+
+If you have any questions or proposes , - please send me e-mail to nonflet@gmail.com
+
+Regards, Dmitry Lavrinenenko
+

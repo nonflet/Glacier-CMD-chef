@@ -1,0 +1,16 @@
+[aws]
+access_key=<%= node[:glaciercmd][:access_key] %>
+secret_key=<%= node[:glaciercmd][:secret_key] %>
+
+[sdb]
+access_key=<%= node[:glaciercmd][:sdb_secret_key] %>
+secret_key=<%= node[:glaciercmd][:sdb_secret_key] %>
+region=us-west-1
+
+[glacier]
+region=us-east-1
+bookkeeping=False
+bookkeeping-domain-name=<%= node[:glaciercmd][:domainname] %>
+logfile=~/.glacier-cmd.log
+loglevel=INFO
+output=print
